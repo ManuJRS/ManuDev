@@ -1,0 +1,64 @@
+
+h1 {
+    font-family: Title_Anton;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+h2 {
+    color: #ffffff;
+    font-family: text_font_web_bold;
+}
+.PIntro{
+    color: #ffffff;
+    font-family: text_font_web_Light;
+    font-weight: 300;
+}
+.separador {
+    border: #5a5959 2px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.671);
+    background-color: rgba(187, 183, 183, 0.04);
+    outline: 1px solid rgba(242, 242, 242, .05);
+}
+.TitleDescription {
+    color: #ffffff;
+    font-family: Title_Anton;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+.no-overflow {
+    overflow: hidden;
+}
+.colp {
+    color: #ffffff;
+    font-family: text_font_web_Light;
+}
+.TextDescription {
+    color: #ffffff;
+    font-family: text_font_web_regular;
+    text-align: left;
+}
+.verticaline {
+    width: 10px; /* Ancho de la línea vertical (puede ajustarse según sea necesario) */
+    height: 3em; /* Altura completa del contenedor */
+    background-color: #1b1c1b; /* Color de la línea */
+    margin: 0 10px; /* Espacio horizontal opcional */
+    position: relative;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    margin-top: -2px;
+    margin-bottom: -2px;
+    border-left: #5a5959 1px solid;
+    border-right: #5a5959 1px solid;
+}
+.separadorvideo {
+    border: 2px solid #5a5959;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.671);
+    background-color: rgba(187, 183, 183, 0.04);
+    outline: 1px solid rgba(242, 242, 242, .05);
+}

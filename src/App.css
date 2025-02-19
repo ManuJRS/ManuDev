@@ -1,0 +1,150 @@
+.Card-class {
+  border: #5a5959 2px solid;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.671);
+  background-color: rgba(187, 183, 183, 0.04);
+  outline: 1px solid rgba(242, 242, 242, .05);
+  cursor: pointer;
+  height: 50vh;
+  transition: background 0.5s ease;
+  /* Transición suave para el fondo */
+  transition: height 1s ease;
+  /* Agrega una transición suave para suavizar el efecto */
+}
+
+.Card-class:hover {
+  height: 80vh;
+  background: radial-gradient(circle, rgba(68, 160, 217, 0.171) 0%, rgba(21, 21, 21, 0.185) 100%);
+}
+
+.Card-body img {
+  transform: translateY(150px);
+  /* Ajusta el valor según la cantidad de desplazamiento deseada */
+  transition: transform 0.8s ease;
+  /* Agrega una transición suave para suavizar el efecto */
+}
+
+.Card-body:hover img {
+  transform: translateY(0);
+  /* Revierte el desplazamiento cuando se pasa el cursor sobre la tarjeta */
+}
+
+.Card-body strong {
+  color: rgba(242, 242, 242, .8);
+}
+
+.Card-title {
+  color: #f1f1f1;
+  font-family: text_font_web_bold;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.Card-text {
+  color: #f1f1f1;
+  font-family: text_font_web_Light;
+}
+
+.nolink {
+  text-decoration: none;
+}
+
+.card-pro {
+  border: #5a5959 2px solid;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.671);
+  background-color: rgba(187, 183, 183, 0.04);
+  outline: 1px solid rgba(242, 242, 242, .05);
+}
+
+@media (max-width: 1200px) {
+
+  .Card-class {
+    border: #5a5959 2px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.671);
+    background-color: rgba(187, 183, 183, 0.04);
+    outline: 1px solid rgba(242, 242, 242, .05);
+    cursor: pointer;
+    height: auto;
+  }
+
+  .Card-class:hover {
+    height: auto;
+    background: rgba(187, 183, 183, 0.04);
+  }
+
+  .Card-body img {
+    transform: none;
+    /* Ajusta el valor según la cantidad de desplazamiento deseada */
+  }
+
+
+}
+
+.Card-classInfo {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.671);
+  background-color: rgba(187, 183, 183, 0.04);
+  height: auto;
+  margin-top: 50px;
+}
+
+.Card-classInfo img {
+  border: #5a5959 2px solid;
+  border-radius: 10px;
+
+}
+
+.Card-bodyInfo {
+  padding: 0;
+}
+
+.Card-text-info {
+  margin-top: 20px;
+  background-color: #5a595900;
+  border: #5a5959 0px solid;
+
+}
+
+.Card-text-info {
+  color: #ffffff;
+
+}
+
+.Card-text-text {
+  margin-top: 50px;
+}
+
+.card-izq i {
+  color: #ffffff;
+}
+
+.card-izq-izq {
+  margin-top: 80px;
+}
+
+.card-izq-izq h3 {
+  color: #ffffff;
+  font-family: text_font_web_bold;
+}
+
+.list-text {
+  margin-bottom: 0px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.list-text h4 {
+  margin-left: 10px;
+  font-family: text_font_web_Light;
+  padding-top: 10px;
+}
+
+.list-icon {
+  font-size: 1.5em;
+}

@@ -1,0 +1,9 @@
+.Footer {
+    color: #ffffff8a;
+    font-family: text_font_web_Light;
+    position: relative;
+    display: flex;
+    justify-content: flex-start; /* Alinea el contenido al final (derecha) */
+    padding-right: 20px; /* Opcional, agrega un poco de padding si es necesario */
+    padding-top: 45px;
+}

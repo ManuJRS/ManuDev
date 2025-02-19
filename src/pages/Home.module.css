@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(to bottom, #101010, #1B1C1A);
+    margin: 0; /* Elimina el margen predeterminado del body*/
+}
+.ContainerAgrouno {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #101010, #1B1C1A);
+}
+.ContainerHome {
+    height: 100vh;
+    width: 100;
+    overflow-x: hidden;
+}
