@@ -20,6 +20,8 @@ export const CPFirstCard = ({ videoone, tittlefc, textfc }) => {
             height='100%'
             loop
             playing
+            muted // para que jale en iphone
+            playsinline // para que jale en iphone x2
             style={{ padding: '20px' }}
           />) : (
           <p>Cargando video...</p>
