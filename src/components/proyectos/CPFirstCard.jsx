@@ -1,20 +1,29 @@
-import React from 'react'
+import { useEffect, useState } from 'react';
 import { Row, Card, Col } from 'react-bootstrap';
 import ReactPlayer from 'react-player'
 import style from '../proyectos/proyectos.module.css'
 import PropTypes from 'prop-types';
 
-export const CPFirstCard = ({videoone, tittlefc, textfc}) => {
+export const CPFirstCard = ({ videoone, tittlefc, textfc }) => {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   return (
     <div className='my-5'>
       <Card className={style.separadorvideo}>
-        <ReactPlayer url={videoone}
-          width='100%'
-          height='100%'
-          loop
-          playing
-          style={{ padding: '20px' }}
-        />
+        {isClient ? (
+          <ReactPlayer url={videoone}
+            width='100%'
+            height='100%'
+            loop
+            playing
+            style={{ padding: '20px' }}
+          />) : (
+          <p>Cargando video...</p>
+        )}
       </Card>
       <Row>
         <Col xs={12} sm={4}>
@@ -40,3 +49,4 @@ CPFirstCard.propTypes = {
   tittlefc: PropTypes.string.isRequired,
   textfc: PropTypes.string.isRequired,
 }
+
