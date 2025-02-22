@@ -14,7 +14,7 @@ const agrounoData = [
         timetext: "29 dias",
         textdescription: "El proyecto tuvo una duración de 1 mes, en el cual se hizo el rediseño, wireframe y desarrollo del sitio web para la empresa Agrouno, el objetivo fue presentar un sitio web funcional y responsivo en menos de 30 días.",
         introproyect: "Personalizacion mediante codigo",
-        videoone: "https://res.cloudinary.com/dronteu5m/video/upload/v1740242180/manu%20portafolio/fvrxdgfds2qyrnplkaq5.webm",
+        videoone: "https://res.cloudinary.com/dronteu5m/video/upload/v1740242764/manu%20portafolio/ebk36eeibdmmuivazks8.mp4",
         tittlefc: "Menú personalizado:",
         textfc: "Desarrollé un menú de hamburguesa visible en todos los dispositivos, utilicé JS para darle dinamismo y funcionalidad.",
         videotwo: videotwo,
