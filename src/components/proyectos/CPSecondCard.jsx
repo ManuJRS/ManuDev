@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player'
 import style from '../proyectos/proyectos.module.css'
 import PropTypes from 'prop-types';
 
-export const CPSecondCard = ({videotwo, tittlesc, textsc}) => {
+export const CPSecondCard = ({ videotwo, tittlesc, textsc }) => {
   return (
     <div className='my-5'>
       <Card className={style.separadorvideo}>
@@ -13,6 +13,8 @@ export const CPSecondCard = ({videotwo, tittlesc, textsc}) => {
           height='100%'
           loop
           playing
+          muted // para que jale en iphone
+          playsinline // para que jale en iphone x2
           style={{ padding: '20px' }}
         />
       </Card>
