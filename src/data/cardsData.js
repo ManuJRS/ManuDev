@@ -1,7 +1,6 @@
-import agrounoimg from '../assets/AGROUNO/Agrouno_imagen_intro_proyecto_v1.png';
 import tiendamuebles from '../assets/TIENDADEMUEBLES/Diseño sin título - 2023-10-21T110455.768.png';
 import esmeralda from '../assets/ESMERALDA/esmeralda_brewind_manudev.png';
-import arsareno from  '../assets/ARSA/arsa_renoval_manudev.png'
+import arsareno from '../assets/ARSA/arsa_renoval_manudev.png'
 
 
 const cardsData = [
@@ -10,7 +9,7 @@ const cardsData = [
         tittle: "AGROUNO",
         intro: "Desarrollo Front-End 2022",
         text: "html, css, js, wordpress",
-        externalLink: agrounoimg, //Nombre de la IMG que le dimos en el import
+        externalLink: "https://res.cloudinary.com/dronteu5m/image/upload/v1740326883/manu%20portafolio/frebtyroevlte24gwqvd.png", //Nombre de la IMG que le dimos en el import
         link: "/Agrouno"
     },
     {

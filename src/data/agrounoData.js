@@ -1,11 +1,9 @@
-import agrounoimg from '../assets/AGROUNO/Agrouno_imagen_intro_proyecto_v1.png';
-
 const agrounoData = [
     {
         id: 1,
         title: "AGROUNO",
         description: "Desarollo de sitio web - 2022",
-        img: agrounoimg,
+        img: "https://res.cloudinary.com/dronteu5m/image/upload/v1740326883/manu%20portafolio/frebtyroevlte24gwqvd.png",
         rolltext: "Desarrollador Web",
         tecnotext: "HTML, css, js, WordPress",
         timetext: "29 dias",
