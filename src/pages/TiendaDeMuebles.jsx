@@ -19,7 +19,7 @@ export const TiendaDeMuebles = () => {
 
     return (
 
-<Container className={style.ContainerAgrouno}>
+        <Container className={style.ContainerAgrouno}>
             <Row>
                 <Col xs={0} sm={1}>
                 </Col>
@@ -32,6 +32,7 @@ export const TiendaDeMuebles = () => {
                             />
                             <CPImg
                                 img={projecttienda.img}
+                                alttexthero={projecttienda.alttexthero}
                             />
                             <CPProDesc
                                 rolltext={projecttienda.rolltext}
@@ -45,21 +46,24 @@ export const TiendaDeMuebles = () => {
                                 videoone={projecttienda.videoone}
                                 tittlefc={projecttienda.tittlefc}
                                 textfc={projecttienda.textfc}
+                                alttitleone={projecttienda.alttitleone}
                             />
                             <CPSecondCard
                                 videotwo={projecttienda.videotwo}
                                 tittlesc={projecttienda.tittlesc}
                                 textsc={projecttienda.textsc}
+                                alttitletwo={projecttienda.alttitletwo}
                             />
                             <CPThirdCard
                                 videothree={projecttienda.videothree}
                                 tittletc={projecttienda.tittletc}
                                 texttc={projecttienda.texttc}
+                                alttitlethree={projecttienda.alttitlethree}
                             />
-                            <CPConclu 
+                            <CPConclu
                                 conclusiontext={projecttienda.conclusiontext}
                             />
-                                                        <Footer/>
+                            <Footer />
 
                         </div>
                     ))}
@@ -67,5 +71,5 @@ export const TiendaDeMuebles = () => {
                 <Col xs={0} sm={1}></Col>
             </Row>
         </Container>
-)
+    )
 }

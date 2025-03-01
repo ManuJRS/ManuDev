@@ -29,6 +29,7 @@ export const Agrouno = () => {
                             />
                             <CPImg
                                 img={projectagro.img}
+                                alttexthero={projectagro.alttexthero}
                             />
                             <CPProDesc
                                 rolltext={projectagro.rolltext}
@@ -40,6 +41,7 @@ export const Agrouno = () => {
                                 introproyect={projectagro.introproyect} />
                             <CPFirstCard
                                 videoone={projectagro.videoone}
+                                alttitleone={projectagro.alttitleone}
                                 tittlefc={projectagro.tittlefc}
                                 textfc={projectagro.textfc}
                             />
@@ -47,11 +49,13 @@ export const Agrouno = () => {
                                 videotwo={projectagro.videotwo}
                                 tittlesc={projectagro.tittlesc}
                                 textsc={projectagro.textsc}
+                                alttitletwo={projectagro.alttitletwo}
                             />
                             <CPThirdCard
                                 videothree={projectagro.videothree}
                                 tittletc={projectagro.tittletc}
                                 texttc={projectagro.texttc}
+                                alttitlethree={projectagro.alttitlethree}
                             />
                             <CPConclu
                                 conclusiontext={projectagro.conclusiontext}

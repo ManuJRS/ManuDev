@@ -1,8 +1,6 @@
-import imginfo from '../assets/INFO/Manu-dev-card-img.png'
-
 const infoData = [{
     id: 1,
-    imginfo: imginfo,
+    imginfo: "https://res.cloudinary.com/dronteu5m/image/upload/v1740848693/manu%20portafolio/INFO/hbn4d7wslaqqbtzoredu.png",
     titleInfo: "Soy Manu",
     titleInfoCard: "Experto en Wordpress // Manejo HTML & CSS",
     textInfoCard: "freelancer con 4 años de experiencia en el diseño y desarrollo de diversos sitios web, incluyendo ecommerce, sitios corporativos, menús en línea y páginas de aterrizaje.",

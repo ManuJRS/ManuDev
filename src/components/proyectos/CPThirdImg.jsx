@@ -3,12 +3,12 @@ import { Row, Card, Col } from 'react-bootstrap';
 import style from '../proyectos/proyectos.module.css'
 import PropTypes from 'prop-types';
 
-export const CPThirdImg = ({ thirdimg, tittletc, texttc }) => {
+export const CPThirdImg = ({ thirdimg, tittletc, texttc, altimgtext }) => {
     return (
         <div className='my-5'>
             <Card className={style.separadorvideo}>
                 <Card.Body className="d-flex flex-column">
-                    <Card.Img variant="top" src={thirdimg} />
+                    <Card.Img variant="top" src={thirdimg} title={altimgtext} />
                 </Card.Body>
             </Card>
             <Row>

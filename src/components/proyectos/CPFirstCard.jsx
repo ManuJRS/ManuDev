@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player'
 import style from '../proyectos/proyectos.module.css'
 import PropTypes from 'prop-types';
 
-export const CPFirstCard = ({ videoone, tittlefc, textfc }) => {
+export const CPFirstCard = ({ videoone, tittlefc, textfc, alttitleone }) => {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
@@ -13,7 +13,7 @@ export const CPFirstCard = ({ videoone, tittlefc, textfc }) => {
 
   return (
     <div className='my-5'>
-      <Card className={style.separadorvideo}>
+      <Card className={style.separadorvideo} title={alttitleone}>
         {isClient ? (
           <ReactPlayer url={videoone}
             width='100%'

@@ -4,10 +4,10 @@ import ReactPlayer from 'react-player'
 import style from '../proyectos/proyectos.module.css'
 import PropTypes from 'prop-types';
 
-export const CPThirdCard = ({ videothree, tittletc, texttc }) => {
+export const CPThirdCard = ({ videothree, tittletc, texttc, alttitlethree }) => {
   return (
     <div className='my-5'>
-      <Card className={style.separadorvideo}>
+      <Card className={style.separadorvideo} title={alttitlethree}>
         <ReactPlayer url={videothree}
           width='100%'
           height='100%'

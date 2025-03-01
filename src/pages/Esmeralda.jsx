@@ -29,6 +29,7 @@ export const Esmeralda = () => {
                             />
                             <CPImg
                                 img={projectesme.img}
+                                alttexthero={projectesme.alttexthero}
                             />
                             <CPProDesc
                                 rolltext={projectesme.rolltext}
@@ -42,16 +43,19 @@ export const Esmeralda = () => {
                                 videoone={projectesme.videoone}
                                 tittlefc={projectesme.tittlefc}
                                 textfc={projectesme.textfc}
+                                alttitleone={projectesme.alttitleone}
                             />
                             <CPSecondCard
                                 videotwo={projectesme.videotwo}
                                 tittlesc={projectesme.tittlesc}
                                 textsc={projectesme.textsc}
+                                alttitletwo={projectesme.alttitletwo}
                             />
                             <CPThirdCard
                                 videothree={projectesme.videothree}
                                 tittletc={projectesme.tittletc}
                                 texttc={projectesme.texttc}
+                                alttitlethree={projectesme.alttitlethree}
                             />
                             <CPConclu
                                 conclusiontext={projectesme.conclusiontext}

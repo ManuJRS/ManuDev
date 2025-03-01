@@ -29,6 +29,7 @@ export const Arsa = () => {
                             />
                             <CPImg
                                 img={projectarsa.img}
+                                alttexthero={projectarsa.alttexthero}
                             />
                             <CPProDesc
                                 rolltext={projectarsa.rolltext}
@@ -42,16 +43,19 @@ export const Arsa = () => {
                                 videoone={projectarsa.videoone}
                                 tittlefc={projectarsa.tittlefc}
                                 textfc={projectarsa.textfc}
+                                alttitleone={projectarsa.alttitleone}
                             />
                             <CPSecondCard
                                 videotwo={projectarsa.videotwo}
                                 tittlesc={projectarsa.tittlesc}
                                 textsc={projectarsa.textsc}
+                                alttitletwo={projectarsa.alttitletwo}
                             />
                             <CPThirdImg
                                 thirdimg={projectarsa.thirdimg}
                                 tittletc={projectarsa.tittletc}
                                 texttc={projectarsa.texttc}
+                                altimgtext={projectarsa.altimgtext}
                             />
                             <CPConclu
                                 conclusiontext={projectarsa.conclusiontext}
