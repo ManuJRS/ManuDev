@@ -13,8 +13,16 @@ const infoData = [{
     rdList: "Responsive Design",
     wpList: "Wordpress",
     eList: "Elementor",
-    bootsList: "Bootstrap",
+    bootsList: "Bootstrap 4 y 5",
     ReactList: "React",
+    iconGit: "Git",
+    iconGitHub: "Github",
+    iconCss: "Css",
+    iconJson: "Json",
+    iconTailwind: "Tailwind",
+    iconDom: "Manipulación del DOM",
+    iconApi: "Consumo de API's",
+    iconAstro: "Astro"
 }]
 
 export default infoData;
