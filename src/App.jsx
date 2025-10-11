@@ -5,8 +5,9 @@ import { Info } from '../src/pages/Info.jsx'
 import { Home } from '../src/pages/Home'
 import { Agrouno } from '../src/pages/Agrouno.jsx';
 import { Esmeralda } from '../src/pages/Esmeralda.jsx';
-import { TiendaDeMuebles } from '../src/pages/TiendaDeMuebles.jsx'
+import { TiendaDeMuebles } from '../src/pages/TiendaDeMuebles.jsx';
 import { Arsa } from '../src/pages/Arsa.jsx';
+import { CardProject } from '../src/pages/CardProject.jsx';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Tienda-de-muebles" element={<TiendaDeMuebles />}></Route>
         <Route path="/Esmeralda-Brewing" element={<Esmeralda />}></Route>
         <Route path="/Arsa-Renoval" element={<Arsa />}></Route>
+        <Route path="/Card-Project" element={<CardProject />}></Route>
       </Routes>
     </div>
   )

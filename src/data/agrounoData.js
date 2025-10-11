@@ -2,7 +2,7 @@ const agrounoData = [
     {
         id: 1,
         title: "AGROUNO",
-        description: "Desarollo de sitio web - 2022",
+        description: "Desarollo de sitio web",
         img: "https://res.cloudinary.com/dronteu5m/image/upload/v1740847346/manu%20portafolio/HOME/iyvno1ocjro6yj6ud9lz.png",
         alttexthero: "Agro uno sitio web desarrollado por Manu",
         rolltext: "Desarrollador Web",

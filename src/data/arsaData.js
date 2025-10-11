@@ -2,7 +2,7 @@ const arsaData = [
     {
         id: 1,
         title: "Arsa Renoval", //Titulo del proyecto
-        description: "Desarollo de sitio web - 2023", // Subtitle
+        description: "Desarollo de sitio web", // Subtitle
         img: "https://res.cloudinary.com/dronteu5m/image/upload/v1740847344/manu%20portafolio/HOME/oyyzkgbkeim7pul2zhv7.png", //Imagen principal
         alttexthero: "Arsa sitio web desarrollado por Manu",
         rolltext: "Desarrollador Web", //Mi papel

@@ -2,23 +2,23 @@ const cardsData = [
     {
         id: 1,
         tittle: "AGROUNO",
-        intro: "Desarrollo Front-End 2022",
+        intro: "Desarrollo Front-End",
         text: "html, css, js, wordpress",
         externalLink: "https://res.cloudinary.com/dronteu5m/image/upload/v1740847346/manu%20portafolio/HOME/iyvno1ocjro6yj6ud9lz.png", //Nombre de la IMG que le dimos en el import
         link: "/Agrouno"
     },
     {
         id: 2,
-        tittle: "TIENDA DE MUEBLES",
-        intro: "Desarrollo Front-End 2023",
-        text: "html, css, js, wodpress, creación de widgets personalizados",
-        externalLink: "https://res.cloudinary.com/dronteu5m/image/upload/v1740847347/manu%20portafolio/HOME/hq9smjcyfy8cc8ltrops.png", //Nombre de la IMG que le dimos en el import
-        link: "/Tienda-de-muebles"
+        tittle: "PROYECTO CARD",
+        intro: "Buenas prácticas",
+        text: "HTML y CSS",
+        externalLink: "https://res.cloudinary.com/dronteu5m/image/upload/v1760044810/Portada_aoygpj.png", //Nombre de la IMG que le dimos en el import
+        link: "/Card-Project"
     },
     {
         id: 3,
         tittle: "ESMERALDA BREWING",
-        intro: "Desarrollo Front-End 2022",
+        intro: "Desarrollo Front-End",
         text: "html, css, js",
         externalLink: "https://res.cloudinary.com/dronteu5m/image/upload/v1740847345/manu%20portafolio/HOME/h9qabvtofgsrnrymz1yr.png", //Nombre de la IMG que le dimos en el import
         link: "/Esmeralda-brewing"
@@ -26,11 +26,19 @@ const cardsData = [
     {
         id: 4,
         tittle: "ARSA RENOVAL",
-        intro: "Desarrollo Front-End 2023",
+        intro: "Desarrollo Front-End",
         text: "html, css, js, wodpress",
         externalLink: "https://res.cloudinary.com/dronteu5m/image/upload/v1740847344/manu%20portafolio/HOME/oyyzkgbkeim7pul2zhv7.png", //Nombre de la IMG que le dimos en el import
         link: "/Arsa-Renoval"
     },
-]
+    {
+        id: 5,
+        tittle: "TIENDA DE MUEBLES",
+        intro: "Desarrollo Front-End",
+        text: "html, css, js, wodpress, creación de widgets personalizados",
+        externalLink: "https://res.cloudinary.com/dronteu5m/image/upload/v1740847347/manu%20portafolio/HOME/hq9smjcyfy8cc8ltrops.png", //Nombre de la IMG que le dimos en el import
+        link: "/Tienda-de-muebles"
+    },
 
+]
 export default cardsData;

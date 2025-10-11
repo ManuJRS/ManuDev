@@ -12,24 +12,24 @@ import Col from 'react-bootstrap/Col';
 
 export const Home = () => {
   return (
-<div className={style.ContainerHome}>
-    <Container fluid>
-      <Row className="justify-content-center vh-100 my-4">
-        <Col xs={0}  sm={2} className="text-center">
+    <div className={style.ContainerHome}>
+      <Container fluid>
+        <Row className="justify-content-center vh-100 my-4">
+          <Col xs={0} sm={2} className="text-center">
 
-        </Col>
-        <Col xs={12} sm={8} className="text-center">
-          <Intro />
-          <CvLinks />
-          <Featured />
-          <Pro />
-          <Footer />
-        </Col>
-        <Col xs={0} sm={2} className="text-center">
-        </Col>
+          </Col>
+          <Col xs={12} sm={8} className="text-center">
+            <Intro />
+            <CvLinks />
+            <Featured />
+            <Pro />
+            <Footer />
+          </Col>
+          <Col xs={0} sm={2} className="text-center">
+          </Col>
 
-      </Row>
-    </Container>
+        </Row>
+      </Container>
     </div>
   )
 }
