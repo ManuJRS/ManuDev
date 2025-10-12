@@ -1,11 +1,11 @@
 const cardsData = [
     {
         id: 1,
-        tittle: "AGROUNO",
+        tittle: "ESMERALDA BREWING RENEWED",
         intro: "Desarrollo Front-End",
-        text: "html, css, js, wordpress",
-        externalLink: "https://res.cloudinary.com/dronteu5m/image/upload/v1740847346/manu%20portafolio/HOME/iyvno1ocjro6yj6ud9lz.png", //Nombre de la IMG que le dimos en el import
-        link: "/Agrouno"
+        text: "Stack: Astro, HTML, CSS, JS, WordPress headless (ACF, API), Git, GitHub",
+        externalLink: "https://res.cloudinary.com/dronteu5m/image/upload/v1760303592/Esmeralda-renovaci%C3%B3n_efqxwm.png", //Nombre de la IMG que le dimos en el import
+        link: "/Esmeralda-Brewing-Renewed-Page"
     },
     {
         id: 2,
@@ -17,11 +17,11 @@ const cardsData = [
     },
     {
         id: 3,
-        tittle: "ESMERALDA BREWING",
+        tittle: "AGROUNO",
         intro: "Desarrollo Front-End",
-        text: "html, css, js",
-        externalLink: "https://res.cloudinary.com/dronteu5m/image/upload/v1740847345/manu%20portafolio/HOME/h9qabvtofgsrnrymz1yr.png", //Nombre de la IMG que le dimos en el import
-        link: "/Esmeralda-brewing"
+        text: "html, css, js, wordpress",
+        externalLink: "https://res.cloudinary.com/dronteu5m/image/upload/v1740847346/manu%20portafolio/HOME/iyvno1ocjro6yj6ud9lz.png", //Nombre de la IMG que le dimos en el import
+        link: "/Agrouno"
     },
     {
         id: 4,
@@ -38,6 +38,14 @@ const cardsData = [
         text: "html, css, js, wodpress, creación de widgets personalizados",
         externalLink: "https://res.cloudinary.com/dronteu5m/image/upload/v1740847347/manu%20portafolio/HOME/hq9smjcyfy8cc8ltrops.png", //Nombre de la IMG que le dimos en el import
         link: "/Tienda-de-muebles"
+    },
+    {
+        id: 6,
+        tittle: "ESMERALDA BREWING",
+        intro: "Desarrollo Front-End",
+        text: "html, css, js",
+        externalLink: "https://res.cloudinary.com/dronteu5m/image/upload/v1740847345/manu%20portafolio/HOME/h9qabvtofgsrnrymz1yr.png", //Nombre de la IMG que le dimos en el import
+        link: "/Esmeralda-brewing"
     },
 
 ]

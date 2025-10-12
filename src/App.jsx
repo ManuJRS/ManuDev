@@ -8,6 +8,7 @@ import { Esmeralda } from '../src/pages/Esmeralda.jsx';
 import { TiendaDeMuebles } from '../src/pages/TiendaDeMuebles.jsx';
 import { Arsa } from '../src/pages/Arsa.jsx';
 import { CardProject } from '../src/pages/CardProject.jsx';
+import { EsmeraldaRenewedPage } from '../src/pages/EsmeraldaRenewedPage.jsx'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/Esmeralda-Brewing" element={<Esmeralda />}></Route>
         <Route path="/Arsa-Renoval" element={<Arsa />}></Route>
         <Route path="/Card-Project" element={<CardProject />}></Route>
+        <Route path="/Esmeralda-Brewing-Renewed-Page" element={<EsmeraldaRenewedPage />}></Route>
       </Routes>
     </div>
   )
