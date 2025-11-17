@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from '../inicio/Pro.module.css'
 import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
@@ -22,14 +21,14 @@ export const CvLinks = () => {
             <Collapse in={open}>
                 <div id="collapse-at-sign">
                     <ListGroup style={{ background: 'none' }}>
-                        <ListGroup.Item 
-                        style={{ background: 'none', border: 'none', color: '#0d6efd' }} 
-                        action target="_blank" 
-                        href="https://www.linkedin.com/in/manuel-jes%C3%BAs-rej%C3%B3n-santana-83564015a/">Linkedin <FaExternalLinkSquareAlt /></ListGroup.Item>
-                        <ListGroup.Item style={{ background: 'none', border: 'none', color: '#0d6efd' }} 
-                        action 
-                        target="_blank" 
-                        href="https://www.upwork.com/freelancers/~0112e01210080eef35?mp_source=share">Upwork <FaExternalLinkSquareAlt /></ListGroup.Item>
+                        <ListGroup.Item
+                            style={{ background: 'none', border: 'none', color: '#0d6efd' }}
+                            action target="_blank"
+                            href="https://www.linkedin.com/in/manuel-jes%C3%BAs-rej%C3%B3n-santana-83564015a/">Linkedin <FaExternalLinkSquareAlt /></ListGroup.Item>
+                        <ListGroup.Item style={{ background: 'none', border: 'none', color: '#0d6efd' }}
+                            action
+                            target="_blank"
+                            href="https://www.upwork.com/freelancers/~0112e01210080eef35?mp_source=share">Upwork <FaExternalLinkSquareAlt /></ListGroup.Item>
                     </ListGroup>
                 </div>
             </Collapse>

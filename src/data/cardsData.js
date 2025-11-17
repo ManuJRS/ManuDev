@@ -1,6 +1,14 @@
 const cardsData = [
     {
         id: 1,
+        tittle: "MOVIE MANAGER · GESTOR DE PELÍCULAS",
+        intro: "Desarrollo Front-End",
+        text: "Stack: Vue 3 · Vite · Vuetify 3 · Pinia · JavaScript · Netlify · Git · GitHub",
+        externalLink: "https://res.cloudinary.com/dronteu5m/image/upload/v1763336309/Dise%C3%B1o_sin_t%C3%ADtulo_8_wyj8wb.png", //Nombre de la IMG que le dimos en el import
+        link: "/Movie-Manager-Page"
+    },
+    {
+        id: 2,
         tittle: "ESMERALDA BREWING RENEWED",
         intro: "Desarrollo Front-End",
         text: "Stack: Astro, HTML, CSS, JS, WordPress headless (ACF, API), Git, GitHub",
@@ -8,7 +16,7 @@ const cardsData = [
         link: "/Esmeralda-Brewing-Renewed-Page"
     },
     {
-        id: 2,
+        id: 3,
         tittle: "PROYECTO CARD",
         intro: "Buenas prácticas",
         text: "HTML y CSS",
@@ -16,7 +24,7 @@ const cardsData = [
         link: "/Card-Project"
     },
     {
-        id: 3,
+        id: 4,
         tittle: "AGROUNO",
         intro: "Desarrollo Front-End",
         text: "html, css, js, wordpress",
@@ -24,7 +32,7 @@ const cardsData = [
         link: "/Agrouno"
     },
     {
-        id: 4,
+        id: 5,
         tittle: "ARSA RENOVAL",
         intro: "Desarrollo Front-End",
         text: "html, css, js, wodpress",
@@ -32,7 +40,7 @@ const cardsData = [
         link: "/Arsa-Renoval"
     },
     {
-        id: 5,
+        id: 6,
         tittle: "TIENDA DE MUEBLES",
         intro: "Desarrollo Front-End",
         text: "html, css, js, wodpress, creación de widgets personalizados",

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Pro } from '../components/inicio/Pro';
 import { Intro } from '../components/inicio/Intro';
 import { CvLinks } from '../components/inicio/CvLinks';

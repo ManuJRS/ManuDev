@@ -1,4 +1,3 @@
-import React from 'react';
 import { CPIntro } from '../components/proyectos/CPIntro';
 import { CPImg } from '../components/proyectos/CPImg';
 import { CPProDesc } from '../components/proyectos/CPProDesc';

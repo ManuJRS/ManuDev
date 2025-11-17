@@ -2,17 +2,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import style from '../pages/Home.module.css';
 import esmeraldaRenewedData from "../data/esmeraldaRenewedData";
 import { CPIntro } from '../components/proyectos/CPIntro';
-import { CPImg } from '../components/proyectos/CPImg';
 import { CPVideoOnly } from '../components/proyectos/CPVideoOnly'
 import { CPProDesc } from '../components/proyectos/CPProDesc';
 import { CPContIntro } from '../components/proyectos/CPContIntro';
 
-import { CPintroUnitario } from "../components/proyectos/CPintroUnitario";
-import { CPimgOne } from "../components/proyectos/CPimgOne";
-import { CPDescimg } from "../components/proyectos/CPDescimg";
-import { CPImgcomp } from "../components/proyectos/CPImgcomp";
 import { CPDescList } from "../components/proyectos/CPDescList";
-import { CPIntroDiv } from "../components/proyectos/CPIntroDiv";
 import { Footer } from '../components/Footer/Footer';
 
 export const EsmeraldaRenewedPage = () => {

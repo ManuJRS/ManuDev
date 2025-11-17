@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Pro.module.css'
 import { FaArrowDown } from "react-icons/fa";
 
