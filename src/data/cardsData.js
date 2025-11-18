@@ -1,6 +1,14 @@
 const cardsData = [
     {
         id: 1,
+        tittle: "POKELAB · VUE 3 + VUETIFY",
+        intro: "Desarrollo Front-End",
+        text: "Stack: Vue 3 · Vite · Vuetify 3 · JavaScript · Chart.js · Fetch API · Netlify · Git · GitHub",
+        externalLink: "https://res.cloudinary.com/dronteu5m/image/upload/v1763436187/Dise%C3%B1o_sin_t%C3%ADtulo_8_cvp3wm.png", //Nombre de la IMG que le dimos en el import
+        link: "/Pokelab-Page"
+    },
+    {
+        id: 1,
         tittle: "MOVIE MANAGER · GESTOR DE PELÍCULAS",
         intro: "Desarrollo Front-End",
         text: "Stack: Vue 3 · Vite · Vuetify 3 · Pinia · JavaScript · Netlify · Git · GitHub",

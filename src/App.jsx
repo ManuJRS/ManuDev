@@ -10,6 +10,7 @@ import { Arsa } from '../src/pages/Arsa.jsx';
 import { CardProject } from '../src/pages/CardProject.jsx';
 import { EsmeraldaRenewedPage } from '../src/pages/EsmeraldaRenewedPage.jsx'
 import { MovieManagerPageView } from '../src/pages/MovieManager.jsx';
+import { PokedexPageView } from '../src/pages/PokeLab.jsx';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/Card-Project" element={<CardProject />}></Route>
         <Route path="/Esmeralda-Brewing-Renewed-Page" element={<EsmeraldaRenewedPage />}></Route>
         <Route path="/Movie-Manager-Page" element={<MovieManagerPageView />}></Route>
+        <Route path="/PokeLab-Page" element={<PokedexPageView />}></Route>
       </Routes>
     </div>
   )
