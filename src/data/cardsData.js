@@ -1,6 +1,14 @@
 const cardsData = [
     {
         id: 1,
+        tittle: "HOTEL DASHBOARD · VUE 3 + VUETIFY + TYPESCRIPT",
+        intro: "Desarrollo Front-End",
+        text: "Stack: Vue 3 · Vite · Vuetify 3 · TypeScript · Pinia · Chart.js · LocalStorage · Router · Netlify · Git · GitHub",
+        externalLink: "https://res.cloudinary.com/dronteu5m/image/upload/v1763438773/Dise%C3%B1o_sin_t%C3%ADtulo_8_tqpskp.png", //Nombre de la IMG que le dimos en el import
+        link: "/Hotel-Dashboard-Page"
+    },
+    {
+        id: 1,
         tittle: "POKELAB · VUE 3 + VUETIFY",
         intro: "Desarrollo Front-End",
         text: "Stack: Vue 3 · Vite · Vuetify 3 · JavaScript · Chart.js · Fetch API · Netlify · Git · GitHub",

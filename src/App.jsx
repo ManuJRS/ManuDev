@@ -11,6 +11,7 @@ import { CardProject } from '../src/pages/CardProject.jsx';
 import { EsmeraldaRenewedPage } from '../src/pages/EsmeraldaRenewedPage.jsx'
 import { MovieManagerPageView } from '../src/pages/MovieManager.jsx';
 import { PokedexPageView } from '../src/pages/PokeLab.jsx';
+import { HotelDashboardPageView } from '../src/pages/HotelDashboardView.jsx';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/Esmeralda-Brewing-Renewed-Page" element={<EsmeraldaRenewedPage />}></Route>
         <Route path="/Movie-Manager-Page" element={<MovieManagerPageView />}></Route>
         <Route path="/PokeLab-Page" element={<PokedexPageView />}></Route>
+        <Route path="/Hotel-Dashboard-Page" element={<HotelDashboardPageView />}></Route>
       </Routes>
     </div>
   )
